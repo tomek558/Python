@@ -11,9 +11,8 @@ def binary_conversion():
     print("___________________________________________________________________")
 
     binvalue = binvalue1 + ' ' + binvalue2 + ' ' + binvalue3 + ' ' + binvalue4
-    first_ip = value4 - value4 + 1
     print("Adres sieci: " + str(value1) + '.' + str(value2) + '.' + str(value3) + '.' + str(0))
-    print("Pierwszy adres: " + str(value1) + '.' + str(value2) + '.' + str(value3) + '.' + str(first_ip))
+    print("Pierwszy adres: " + str(value1) + '.' + str(value2) + '.' + str(value3) + '.' + str(1))
     print("Adres rozgłoszeniowy: " + str(value1) + '.' + str(value2) + '.' + str(value3) + '.' + str(255))
     print("Zapis binarny podanego adresu: " + ' ' + binvalue)
 
